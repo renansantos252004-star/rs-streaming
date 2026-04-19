@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>RS Streaming</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0d0d0d;
+  color: white;
+}
+header {
+  padding: 15px;
+  background: #111;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  color: yellow;
+  font-weight: bold;
+}
+.container {
+  padding: 20px;
+}
+.card {
+  background: #1a1a1a;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 200px;
+}
+button {
+  background: yellow;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">RS Streaming</div>
+</header>
+
+<div class="container">
+<h2>🔥 QUEIMA DE ESTOQUE</h2>
+
+<div class="card">
+<h3>Netflix</h3>
+<p>R$ 9,99</p>
+<button onclick="comprar()">Comprar</button>
+</div>
+
+<div class="card">
+<h3>Prime Video</h3>
+<p>R$ 7,99</p>
+<button onclick="comprar()">Comprar</button>
+</div>
+
+</div>
+
+<a class="whatsapp" href="https://wa.me/5591992239663" target="_blank">
+<button>WhatsApp</button>
+</a>
+
+<script>
+function comprar(){
+  alert("Após pagamento, você receberá automaticamente.");
+}
+</script>
+
+</body>
+</html>
